@@ -1,24 +1,22 @@
-# README
+<h1>MOOCademy de THP</h1>
+<h4>Réalisation by Edouard, Léa</h4>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Etape 1:   
 
-Things you may want to cover:
+    > git clone https://github.com/SatanPetitCoeur/05_The_Hacking_Class
 
-* Ruby version
+Etape 2: 
 
-* System dependencies
+    > cd 05_The_Hacking_Class
+    
+Etape 3:
 
-* Configuration
+    > rake db:migrate 
+     
+Etape 4:
 
-* Database creation
+    > rake db:seed 
+   
+Etape 5:  
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    > rails c
